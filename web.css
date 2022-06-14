@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+  
+body {
+    padding: 10px;
+    background-image: url(./image/bg_cave.png);
+    font-family: 'Black Han Sans', sans-serif;
+}
+  
+.header {
+    padding: 10px;
+    text-align: center;
+}
+  
+.header h1 {
+    font-size: 40px;
+}
+  
+.nav {
+    overflow: hidden;
+    background-color: #ece4b6;
+}
+  
+.nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ece4b6;
+    color: brown;
+}
+  
+.left {   
+    float: left;
+    width: 75%;
+}
+  
+.right {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+  
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+  
+.card {
+    background-color: #ece4b6;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ece4b6;
+    margin-top: 20px;
+}
+.images{
+    display: block; margin: 0 auto; width: 600px;
+}
+p{
+    font-size: 20px;
+}
+.iv{
+    opacity: 0.5;
+}
+span{
+    font-size: 15px;
+}
+dl{
+    font-size: 30px;
+}
+dt{
+    font-weight: bold;
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tbody th {
+    border: 1px solid;
+    width: 200px;
+    height: 100px;
+}
+tbody td{
+    border: 1px solid;
+}
+thead {
+    background-color: brown;
+    width: auto;
+    height: auto;
+}
+.pattern tr:nth-child(2n+0){
+    background-color: #ddb365;
+}
+.places tbody th img {
+    width: 400px;
+}
+.none tbody th a {
+    text-decoration: none;
+    color: #ddb365;
+}
